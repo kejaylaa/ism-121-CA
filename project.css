@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+body {
+    background: #000000;
+    color: pink;
+
+}
+ #header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(image/happy.jpeg);
+background-size:cover;
+background-position: center;
+ }
+ 
+ .container {
+    padding: 5px;
+ }
+nav {
+    height: 100px;
+    background-color: #000000;
+    padding: 0.25cm 0.5cm;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+ .logo{
+    color:pink;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 0.2rem;
+ }
+  nav a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 0 1.5rem;
+    font-size: larger;
+
+  }
+  nav ul li {
+    display:inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    color: #000000;
+ }
+ nav ul li a {
+     color: #ffffff
+
+ }
+  .project {
+    background-image: url(image/happy.jpeg);
+    background-size: cover;
+  }
+  .project-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+   
+  .introductions {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .introductions h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+  }
+  .one{
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+  }
+.introductions h1 {
+    color: #000000;
+}
+  .introductions h2 {
+    font-size: 3rem;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    cursor: pointer;
+
+  }
+  .introductions p{
+    margin-bottom: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    color: #000000;
+  }
+  img{
+    border: 15px rgb(0, 0, 0);
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+
+  }
+  img:hover {
+    width: 600px;
+    height: 600px;
+    cursor:auto;
+    transition: background 0.2s;
+  }
+ 
+  

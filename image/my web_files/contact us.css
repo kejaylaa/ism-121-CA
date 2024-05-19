@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav {
+    height: 100px;
+    background-color: pink;
+    padding: 0.25cm 0.5cm;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+ .logo{
+    color:rgb(254, 250, 250);
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 0.2rem;
+ }
+ nav a{
+    text-decoration:none;
+    color: rgb(0, 0, 0);
+    padding: 0 1.5rem;
+
+ }
+ 
+ 
+ 
+
